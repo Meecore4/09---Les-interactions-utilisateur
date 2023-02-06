@@ -1,0 +1,33 @@
+
+
+
+<div id="formulaire">
+
+
+  <form (ngSubmit)="addKitten()" [formGroup]="addCats">
+    
+    <h1>Chats à l'adoption</h1>
+  
+    <label for="name">Nom</label>
+    <input type="text" formControlName="name">
+  
+    <label for="race">Race</label>
+    <input type="text" formControlName="race">
+  
+    <label for="date">Date de naissance</label>
+    <input type="date" formControlName="date" class="date">
+  
+    <label for="image">URL Image</label>
+    <input type="text" formControlName="image">
+  
+  
+    <button type="submit" [disabled]="addCats.invalid">Adoptez un chat</button>
+  
+  </form>
+
+
+
+
+  </div>
+
+

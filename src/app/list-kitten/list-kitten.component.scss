@@ -1,0 +1,54 @@
+.div2{
+
+    width:70%;
+    
+    
+}
+
+
+.list{
+
+    width:131px;
+    height:500px;
+   
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap:20px;
+   
+}
+
+.details{
+
+    display:flex;
+    flex-direction: column;
+    align-items:baseline;
+    
+  
+}
+
+
+.adoption{
+
+    box-shadow: rgb(202, 123, 54) 1px 5px 9px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 10%;
+    padding:10px;
+
+}
+
+
+
+.details{
+    display:flex;
+    align-items: center;
+    margin: 20px;
+}px
+
+.button{
+
+    padding:20px;
+    width: 80%;
+    background-color: black;
+}
